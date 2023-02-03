@@ -7,7 +7,7 @@ export class Galactic {
 
 
   getAge() {
-    // this.mercuryAge = (this.age / .24).toFixed(2);
+    this.mercuryAge = (this.age / .24).toFixed(2);
   }
 }
 

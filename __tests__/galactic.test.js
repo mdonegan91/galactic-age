@@ -19,7 +19,7 @@ describe('Galactic', () => {
   });
 
   test('should create a method that returns user inputted age in Mercury years.', () => {
-    expect(galactic.mercuryAge).toEqual("128.58");
+    expect(galactic.mercuryAge).toEqual("129.17");
   });
 });
 
