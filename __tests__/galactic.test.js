@@ -59,3 +59,17 @@ describe('Galactic', () => {
     expect(galactic.jupiterPast).toEqual("0.84");
   });
 });
+
+describe('Galactic', () => {
+  let galactic;
+  beforeEach(() => {
+    galactic = new Galactic(31, 21, 100);
+    galactic.getAge();
+    galactic.getFuture();
+  });
+
+  test('should determine how many years have yet to pass on Mercury until a future birthday.', () => {
+    expect(galactic.mercuryFuture).toEqual("287.50");
+  });
+
+});
