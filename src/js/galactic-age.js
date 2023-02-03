@@ -13,7 +13,7 @@ export class Galactic {
   }
 
   getPast() {
-    // this.mercuryPast = (((this.past - this.age) / .24).toFixed(2));
+    this.mercuryPast = (((this.age - this.past) / .24).toFixed(2));
   }
 
 }
