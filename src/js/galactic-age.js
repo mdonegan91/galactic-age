@@ -5,11 +5,15 @@ export class Galactic {
     this.future = future
   }
 
-
   getAge() {
     this.mercuryAge = (this.age / .24).toFixed(2);
     this.venusAge = (this.age / .62).toFixed(2);
     this.marsAge = (this.age / 1.88).toFixed(2);
     this.jupiterAge = (this.age / 11.86).toFixed(2);
   }
+
+  getPast() {
+    // this.mercuryPast = (((this.past - this.age) / .24).toFixed(2));
+  }
+
 }

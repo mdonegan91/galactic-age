@@ -35,3 +35,15 @@ describe('Galactic', () => {
   });
 });
 
+describe('Galactic', () => {
+  let galactic;
+  beforeEach(() => {
+    galactic = new Galactic(31, 21, 100);
+    galactic.getAge();
+    galactic.getPast();
+  });
+
+  test('should determine how many years have passed on Merucry since a past birthday.', () => {
+    expect(galactic.mercuryPast).toEqual(311.08);
+});
+});
