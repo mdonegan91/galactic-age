@@ -1,8 +1,8 @@
 export class Galactic {
   constructor(age, past, future) {
-    this.age = age
-    this.past = past
-    this.future = future
+    this.age = age;
+    this.past = past;
+    this.future = future;
   }
 
   getAge() {

@@ -1,0 +1,72 @@
+.hidden {
+  display: none;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: #071330;
+  color: white;
+}
+
+#age {
+  text-align: center;
+  margin: 15px;
+  background-color: #0C4160;
+  padding: 20px;
+}
+
+img {
+  width: 40%;
+  position: absolute;
+  top: 300px;
+  right: 1px;
+  height: auto;
+}
+
+#submit {
+  background-color: #185273;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+}
+
+#reset {
+  background-color: #0C4160;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+}
+
+#current {
+  background-color: #5885AF;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+#past {
+  background-color: #738FA7; 
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+#future {
+  background-color: #C3CEDA;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+@media screen and (max-width: 750px) {
+  img {
+    display: none;
+  }
+}
