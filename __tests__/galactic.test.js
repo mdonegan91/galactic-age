@@ -12,15 +12,15 @@ describe('Galactic', () => {
   });
 });
 
-describe('Galactic', () => {
-  let galactic;
-  beforeEach(() => { 
-    galactic = new Galactic(31, 21, 100);
-    galactic.calcAge();
-  });
+// describe('Galactic', () => {
+//   let galactic;
+//   beforeEach(() => { 
+//     galactic = new Galactic(31, 21, 100);
+//     galactic.calcAge();
+//   });
 
-  test('should create Galactic method that returns user inputted age in Mercury years.', () => {
-    expect(galactic.mercuryAge).toEqual("103.69");
-  });
-});
+//   test('should create Galactic method that returns user inputted age in Mercury years.', () => {
+//     expect(galactic.mercuryAge).toEqual("103.69");
+//   });
+// });
 

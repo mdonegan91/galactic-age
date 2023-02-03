@@ -4,11 +4,13 @@ export class Galactic {
     this.past = past
     this.future = future
   }
-
-  getAge() {
-    // this.mercuryAge = (this.age / .24).toFixed(2);
-  }
 }
+
+
+//   getAge() {
+//     // this.mercuryAge = (this.age / .24).toFixed(2);
+//   }
+// }
 
 // 54.16 Mercury years have passed.
 // 8.06 Venus years have passed.
