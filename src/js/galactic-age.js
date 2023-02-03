@@ -8,11 +8,8 @@ export class Galactic {
 
   getAge() {
     this.mercuryAge = (this.age / .24).toFixed(2);
+    this.venusAge = (this.age / .62).toFixed(2);
+    this.marsAge = (this.age / 1.88).toFixed(2);
+    this.jupiterAge = (this.age / 11.86).toFixed(2);
   }
 }
-
-
-// 54.16 Mercury years have passed.
-// 8.06 Venus years have passed.
-// 6.91 Mars years have passed.
-// 1.09 Jupiter years have passed.

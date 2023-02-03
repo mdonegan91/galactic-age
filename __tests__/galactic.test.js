@@ -18,8 +18,20 @@ describe('Galactic', () => {
     galactic.getAge();
   });
 
-  test('should create a method that returns user inputted age in Mercury years.', () => {
+  test('should return user inputted age in Mercury years.', () => {
     expect(galactic.mercuryAge).toEqual("129.17");
+  });
+
+  test('should return user inputted age in Venus years.', () => {
+    expect(galactic.venusAge).toEqual("129.17");
+  });
+
+  test('should return user inputted age in Mars years.', () => {
+    expect(galactic.marsAge).toEqual("129.17");
+  });
+
+  test('should return user inputted age in Jupiter years.', () => {
+    expect(galactic.jupiterAge).toEqual("129.17");
   });
 });
 
