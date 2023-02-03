@@ -3,15 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import { Galactic } from './js/galactic-age.js';
 
-function handleForm(e) {
+function blastOff() {
+  let galactic = new Galactic (age, past, future);
   e.preventDefault();
-  const ageInput = document.getElementById("age").value;
-  const pastInput = document.getElementById("past").value;
-  const futureInput = document.getElementById("future").value;
+  let randomHaiku = haikuGenerator();
+  document.getElementById("line1").innerText = randomHaiku[0];
+  document.getElementById("line2").innerText = randomHaiku[1];
+  document.getElementById("line3").innerText = randomHaiku[2];
 }
 
-let galactic = new Galactic(ageInput, pastInput, futureInput)
-
 window.addEventListener("load", function () {
-  this.document.querySelector("form#age").addEventListener("submit", handleForm);
-})
+  document.querySelector("form#new-form").addEventListener("submit", handleFormSubmission);
+  document.getElementById("generate").addEventListener("click", blastOff);
+});
