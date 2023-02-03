@@ -23,15 +23,15 @@ describe('Galactic', () => {
   });
 
   test('should return user inputted age in Venus years.', () => {
-    expect(galactic.venusAge).toEqual("129.17");
+    expect(galactic.venusAge).toEqual("50.00");
   });
 
   test('should return user inputted age in Mars years.', () => {
-    expect(galactic.marsAge).toEqual("129.17");
+    expect(galactic.marsAge).toEqual("16.49");
   });
 
   test('should return user inputted age in Jupiter years.', () => {
-    expect(galactic.jupiterAge).toEqual("129.17");
+    expect(galactic.jupiterAge).toEqual("2.61");
   });
 });
 
