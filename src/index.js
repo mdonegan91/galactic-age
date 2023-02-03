@@ -3,16 +3,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import { Galactic } from './js/galactic-age.js';
 
-function blastOff() {
-  let galactic = new Galactic (age, past, future);
+function blastOff(e) {
   e.preventDefault();
-  let randomHaiku = haikuGenerator();
-  document.getElementById("line1").innerText = randomHaiku[0];
-  document.getElementById("line2").innerText = randomHaiku[1];
-  document.getElementById("line3").innerText = randomHaiku[2];
+  const newAge = document.getElementById("age").value;
+  const newPast = document.getElementById("past").value;
+  const newFuture = document.getElementById("future").value;
+  const planet = document.querySelector("input[name='planet']:checked").value;
+  const paragraph = document.createElement("p");
+  const h2 = document.createElement("h2");
+
+  let galactic = new Galactic(newAge, newPast, newFuture);
+
+  h2.append("Blasting Off!");
+  paragraph.append(`Your age on ${planet} is ${galactic.getAge(planet)} years. ${planet} years since your favorite age: ${galactic.getPast(planet)}. Years until your favorite age: ${galactic.getFuture(planet)}`);
+
+  document.body.append(h2, paragraph);
 }
 
 window.addEventListener("load", function () {
-  document.querySelector("form#new-form").addEventListener("submit", handleFormSubmission);
-  document.getElementById("generate").addEventListener("click", blastOff);
+  document.querySelector("form#age").addEventListener("submit", blastOff);
 });
