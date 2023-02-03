@@ -20,10 +20,10 @@ export class Galactic {
   }
 
   getFuture() {
-    // this.mercuryFuture = (((this.future - this.age) / .24).toFixed(2));
-    // this.venusFuture = (((this.future - this.age) / .62).toFixed(2));
-    // this.marsFuture = (((this.future - this.age) / 1.88).toFixed(2));
-    // this.jupiterFuture = (((this.future - this.age) / 11.86).toFixed(2));
+    this.mercuryFuture = (((this.future - this.age) / .24).toFixed(2));
+    this.venusFuture = (((this.future - this.age) / .62).toFixed(2));
+    this.marsFuture = (((this.future - this.age) / 1.88).toFixed(2));
+    this.jupiterFuture = (((this.future - this.age) / 11.86).toFixed(2));
   }
 
 }

@@ -72,4 +72,16 @@ describe('Galactic', () => {
     expect(galactic.mercuryFuture).toEqual("287.50");
   });
 
+  test('should determine how many years have yet to pass on Venus until a future birthday.', () => {
+    expect(galactic.venusFuture).toEqual("111.29");
+  });
+
+  test('should determine how many years have yet to pass on Mars until a future birthday.', () => {
+    expect(galactic.marsFuture).toEqual("36.70");
+  });
+
+  test('should determine how many years have yet to pass on Jupiter until a future birthday.', () => {
+    expect(galactic.jupiterFuture).toEqual("5.82");
+  });
+
 });
