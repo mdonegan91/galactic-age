@@ -14,6 +14,9 @@ export class Galactic {
 
   getPast() {
     this.mercuryPast = (((this.age - this.past) / .24).toFixed(2));
+    this.venusPast = (((this.age - this.past) / .62).toFixed(2));
+    this.marsPast = (((this.age - this.past) / 1.88).toFixed(2));
+    this.jupiterPast = (((this.age - this.past) / 11.86).toFixed(2));
   }
 
 }

@@ -38,12 +38,24 @@ describe('Galactic', () => {
 describe('Galactic', () => {
   let galactic;
   beforeEach(() => {
-    galactic = new Galactic(56, 43, 100);
+    galactic = new Galactic(31, 21, 100);
     galactic.getAge();
     galactic.getPast();
   });
 
-  test('should determine how many years have passed on Merucry since a past birthday.', () => {
-    expect(galactic.mercuryPast).toEqual("54.17");
-});
+  test('should determine how many years have passed on Mercury since a past birthday.', () => {
+    expect(galactic.mercuryPast).toEqual("41.67");
+  });
+
+  test('should determine how many years have passed on Venus since a past birthday.', () => {
+    expect(galactic.venusPast).toEqual("16.13");
+  });
+
+  test('should determine how many years have passed on Mars since a past birthday.', () => {
+    expect(galactic.marsPast).toEqual("5.32");
+  });
+
+  test('should determine how many years have passed on Jupiter since a past birthday.', () => {
+    expect(galactic.jupiterPast).toEqual("0.84");
+  });
 });
