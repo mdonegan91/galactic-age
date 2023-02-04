@@ -1,9 +1,9 @@
-import { Galactic } from './../src/js/galactic-age.js';
+import { Galaxy } from './../src/js/galactic-age.js';
 
-describe('Galactic', () => {
+describe('Galaxy', () => {
   let galactic;
   beforeEach(() => {
-    galactic = new Galactic(31, 21, 100);
+    galactic = new Galaxy(31, 21, 100);
   });
 
   test('should create an object with user current age, past age and future age parameters', () => {
@@ -11,10 +11,10 @@ describe('Galactic', () => {
   });
 });
 
-describe('Galactic', () => {
+describe('Galaxy', () => {
   let galactic;
   beforeEach(() => {
-    galactic = new Galactic(31, 21, 100);
+    galactic = new Galaxy(31, 21, 100);
     galactic.getAge();
   });
 
@@ -35,10 +35,10 @@ describe('Galactic', () => {
   });
 });
 
-describe('Galactic', () => {
+describe('Galaxy', () => {
   let galactic;
   beforeEach(() => {
-    galactic = new Galactic(31, 21, 100);
+    galactic = new Galaxy(31, 21, 100);
     galactic.getAge();
     galactic.getPast();
   });
@@ -60,10 +60,10 @@ describe('Galactic', () => {
   });
 });
 
-describe('Galactic', () => {
+describe('Galaxy', () => {
   let galactic;
   beforeEach(() => {
-    galactic = new Galactic(31, 21, 100);
+    galactic = new Galaxy(31, 21, 100);
     galactic.getAge();
     galactic.getFuture();
   });

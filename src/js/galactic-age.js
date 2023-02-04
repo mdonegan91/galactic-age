@@ -1,4 +1,4 @@
-export class Galactic {
+export class Galaxy {
   constructor(age, past, future) {
     this.age = age;
     this.past = past;

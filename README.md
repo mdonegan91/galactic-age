@@ -1,4 +1,4 @@
-# Galactice Age
+# Galactic Age
 
 ##### By _Molly Donegan_
 
