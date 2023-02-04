@@ -17,24 +17,28 @@ function blastOff(event) {
   if (planet === "mercury") {
 
   document.querySelector("div#mercury-trip").removeAttribute("class", "hidden");
+  document.querySelector("img#mercury-img").removeAttribute("class", "hidden");
   document.getElementById("mercury-age").innerText = galactic.mercuryAge;
   document.getElementById("mercury-past-age").innerText = galactic.mercuryPast;
   document.getElementById("mercury-future-age").innerText = galactic.mercuryFuture;
   } else if (planet === "venus") {
 
   document.querySelector("div#venus-trip").removeAttribute("class", "hidden");
+  document.querySelector("img#venus-img").removeAttribute("class", "hidden");
   document.getElementById("venus-age").innerText = galactic.venusAge;
   document.getElementById("venus-past-age").innerText = galactic.venusPast;
   document.getElementById("venus-future-age").innerText = galactic.venusFuture;
   } else if (planet === "mars") {
 
   document.querySelector("div#mars-trip").removeAttribute("class", "hidden");
+  document.querySelector("img#mars-img").removeAttribute("class", "hidden");
   document.getElementById("mars-age").innerText = galactic.marsAge;
   document.getElementById("mars-past-age").innerText = galactic.marsPast;
   document.getElementById("mars-future-age").innerText = galactic.marsFuture;
   } else if (planet === "jupiter") {
 
   document.querySelector("div#jupiter-trip").removeAttribute("class", "hidden");
+  document.querySelector("img#jupiter-img").removeAttribute("class", "hidden");
   document.getElementById("jupiter-age").innerText = galactic.jupiterAge;
   document.getElementById("jupiter-past-age").innerText = galactic.jupiterPast;
   document.getElementById("jupiter-future-age").innerText = galactic.jupiterFuture;
@@ -42,7 +46,7 @@ function blastOff(event) {
 }
 
 function backToEarth() {
-  document.querySelector("button.reset").removeAttribute("id");
+  document.querySelector("button#reset").removeAttribute("id");
   document.querySelector("div#results").setAttribute("class", "hidden");
   document.getElementById("submit").disabled = false;
   document.getElementById("reset").disabled = false;
