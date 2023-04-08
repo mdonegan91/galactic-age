@@ -10,6 +10,8 @@ _A web application that determines a user's age based on a planet's solar years.
 
 [Galactic Age](https://mdonegan91.github.io/galactic-age/)
 
+![](https://user-images.githubusercontent.com/35112481/230703834-34b2c3ff-8f4e-4e01-b9cf-337c78186c5a.png)
+
 ## 🔭 Technologies Used 🔭
 
 * JavaScript
