@@ -1,22 +1,22 @@
-# Galactic Age
+# 🪐 Galactic Age 🪐
 
 ##### By _Molly Donegan_
 
-#### _Description_
+#### 🔭 Description 🔭
 
 _A web application that determines a user's age based on a planet's solar years._
 
-## Github Pages Site
+## 🔭 Github Pages Site 🔭
 
 [Galactic Age](https://mdonegan91.github.io/galactic-age/)
 
-## Technologies Used
+## 🔭 Technologies Used 🔭
 
 * JavaScript
 * HTML / CSS
 * Webpack
 
-## Setup/Installation Requirements
+## 🔭 Setup/Installation Requirements 🔭
 
 * _Clone this repository to your desktop_
 * _Navigate to the top level of the directory_
@@ -24,11 +24,11 @@ _A web application that determines a user's age based on a planet's solar years.
 * _Build the project using webpack with ``npm run build``_
 * _Package and open the project in your browser using ``npm run start``_
 
-## Known Bugs
+## 🔭 Known Bugs 🔭
 
 * NA
 
-## License
+## 🔭 License 🔭
 
 * _MIT_
 
