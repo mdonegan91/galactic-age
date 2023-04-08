@@ -2,7 +2,7 @@
 
 ##### By _Molly Donegan_
 
-#### 🔭 Description 🔭
+#### _Description_
 
 _A web application that determines a user's age based on a planet's solar years._
 
